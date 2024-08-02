@@ -56,21 +56,21 @@ const config = {
           {
             loader: 'css-loader',
           },
-          {
-            loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-              plugins: () => [
-                autoprefixer({
-                  browsers: [
-                    '>1%',
-                    'last 4 versions',
-                    'not ie < 9',
-                  ],
-                }),
-              ],
-            },
-          },
+          // {
+          //   loader: 'postcss-loader',
+          //   options: {
+          //     ident: 'postcss',
+          //     plugins: () => [
+          //       autoprefixer({
+          //         browsers: [
+          //           '>1%',
+          //           'last 4 versions',
+          //           'not ie < 9',
+          //         ],
+          //       }),
+          //     ],
+          //   },
+          // },
           {
             loader: 'sass-loader',
             options: {

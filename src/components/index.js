@@ -1,3 +1,4 @@
 // Copyright (c) 2017 PlanGrid, Inc.
+import fileViewer from './file-viewer'
 
-module.exports = require('./file-viewer');
+export default fileViewer
